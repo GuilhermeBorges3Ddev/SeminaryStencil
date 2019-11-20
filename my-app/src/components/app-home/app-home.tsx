@@ -19,9 +19,14 @@ export class AppHome {
 
         <stencil-route-link url='/profile/stencil'>
           <button>
-            Profile page
+            Clique para ver uma diretiva em ação
           </button>
         </stencil-route-link>
+
+          <a href={'https://stencil-fiber-demo.firebaseapp.com/perf.html'}>
+            Clique aqui para ver um exemplo mais avançado
+          </a>
+
       </div>
     );
   }
