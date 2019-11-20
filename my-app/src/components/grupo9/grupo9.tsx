@@ -9,9 +9,7 @@ export class Grupo9 {
 
   render() {
     return (
-      <Host>
-        <slot></slot>
-      </Host>
+        <h1>OLA EU SOU UM COMPONENTE NOVO EM FOLHA....</h1>
     );
   }
 

@@ -1,6 +1,5 @@
 import { Component, h } from '@stencil/core';
 
-
 @Component({
   tag: 'app-root',
   styleUrl: 'app-root.css',
@@ -14,7 +13,7 @@ export class AppRoot {
         <header>
           <h1>Stencil App Starter</h1>
         </header>
-
+        
         <main>
           <stencil-router>
             <stencil-route-switch scrollTopOffset={0}>
@@ -22,6 +21,7 @@ export class AppRoot {
               <stencil-route url='/profile/:name' component='app-profile' />
             </stencil-route-switch>
           </stencil-router>
+          <app-grupo9></app-grupo9>
         </main>
       </div>
     );
