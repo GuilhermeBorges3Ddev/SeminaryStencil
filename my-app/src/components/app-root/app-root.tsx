@@ -11,7 +11,10 @@ export class AppRoot {
     return (
       <div>
         <header>
-          <h1>Stencil App Starter</h1>
+          <h1>
+            <b>Seminário:</b> 
+          </h1>
+          <h1 class="titulo">Uma prática com Stencil App </h1>
         </header>
         
         <main>
