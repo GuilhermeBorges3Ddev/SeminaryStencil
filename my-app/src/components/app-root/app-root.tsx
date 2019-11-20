@@ -25,6 +25,7 @@ export class AppRoot {
             </stencil-route-switch>
           </stencil-router>
           <app-grupo9></app-grupo9>
+          <app-formulario></app-formulario>
         </main>
       </div>
     );
