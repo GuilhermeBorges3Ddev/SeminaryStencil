@@ -11,9 +11,19 @@ h1 {
   font-size: 1.4rem;
   font-weight: 500;
   color: #fff;
-  padding: 0 24px;
+  padding: 10px 24px;
 }
 
 .titulo {
   margin-left: 1%;
+}
+
+.main-container {
+  color: white;
+  background-color: black;
+  height: 400px;
+}
+
+.tagGrupo9 {
+  padding-top: 20px;
 }
