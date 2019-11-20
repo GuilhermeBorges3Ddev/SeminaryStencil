@@ -24,7 +24,9 @@ export class AppRoot {
               <stencil-route url='/profile/:name' component='app-profile' />
             </stencil-route-switch>
           </stencil-router>
-          <app-grupo9></app-grupo9>
+          <div class="main-container">
+            <app-grupo9 class="tagGrupo9" />
+          </div>
           <app-formulario></app-formulario>
         </main>
       </div>
