@@ -23,7 +23,7 @@ Acompanhe as modificações no arquivo:
 * Este arquivo está fora do diretório /my-app!!!! 
 ---
  
-##### Em caso de sucesso você verá o seguinte retorno no browser:
+##### Em caso de sucesso no desafio, você verá uma mensagem no terminal muito semelhante com a gravura abaixo:
 
 <img src="https://user-images.githubusercontent.com/19985305/68077884-92c28500-fdaa-11e9-92d6-d9b687f0b7b3.png" alt="Your image title" width="100%" height="6%"/>
 
