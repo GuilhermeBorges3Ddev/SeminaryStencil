@@ -21,8 +21,10 @@ export class AppProfile {
       return (
         <div class="app-profile">
           <p>
-            Hello! My name is {this.normalize(this.match.params.name)}. My name was passed in
-            through a route param!
+            Bem-vindo! <br></br>
+            Meu nome é {this.normalize(this.match.params.name)}. <br></br>
+            Para ver seu nome na tela digite: <br></br>
+            <u class="nome">http://localhost:3333/profile/seunome</u>
           </p>
         </div>
       );

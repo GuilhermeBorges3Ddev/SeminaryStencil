@@ -1,4 +1,4 @@
-import { Component, Host, h } from '@stencil/core';
+import { Component, h } from '@stencil/core';
 
 @Component({
   tag: 'app-grupo9',
@@ -9,7 +9,7 @@ export class Grupo9 {
 
   render() {
     return (
-        <h1>OLA EU SOU UM COMPONENTE NOVO EM FOLHA....</h1>
+        <h1 class="lead-main">OLA EU SOU UM COMPONENTE TEXTUAL NOVO EM FOLHA....</h1>
     );
   }
 
