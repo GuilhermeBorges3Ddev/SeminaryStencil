@@ -12,7 +12,6 @@ import {
 } from '@stencil/router';
 
 export namespace Components {
-  interface AppBotaoAvancado {}
   interface AppGrupo9 {}
   interface AppHome {}
   interface AppProfile {
@@ -23,12 +22,6 @@ export namespace Components {
 
 declare global {
 
-
-  interface HTMLAppBotaoAvancadoElement extends Components.AppBotaoAvancado, HTMLStencilElement {}
-  var HTMLAppBotaoAvancadoElement: {
-    prototype: HTMLAppBotaoAvancadoElement;
-    new (): HTMLAppBotaoAvancadoElement;
-  };
 
   interface HTMLAppGrupo9Element extends Components.AppGrupo9, HTMLStencilElement {}
   var HTMLAppGrupo9Element: {
@@ -54,7 +47,6 @@ declare global {
     new (): HTMLAppRootElement;
   };
   interface HTMLElementTagNameMap {
-    'app-botao-avancado': HTMLAppBotaoAvancadoElement;
     'app-grupo9': HTMLAppGrupo9Element;
     'app-home': HTMLAppHomeElement;
     'app-profile': HTMLAppProfileElement;
@@ -63,7 +55,6 @@ declare global {
 }
 
 declare namespace LocalJSX {
-  interface AppBotaoAvancado {}
   interface AppGrupo9 {}
   interface AppHome {}
   interface AppProfile {
@@ -72,7 +63,6 @@ declare namespace LocalJSX {
   interface AppRoot {}
 
   interface IntrinsicElements {
-    'app-botao-avancado': AppBotaoAvancado;
     'app-grupo9': AppGrupo9;
     'app-home': AppHome;
     'app-profile': AppProfile;
@@ -86,7 +76,6 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
   export namespace JSX {
     interface IntrinsicElements {
-      'app-botao-avancado': LocalJSX.AppBotaoAvancado & JSXBase.HTMLAttributes<HTMLAppBotaoAvancadoElement>;
       'app-grupo9': LocalJSX.AppGrupo9 & JSXBase.HTMLAttributes<HTMLAppGrupo9Element>;
       'app-home': LocalJSX.AppHome & JSXBase.HTMLAttributes<HTMLAppHomeElement>;
       'app-profile': LocalJSX.AppProfile & JSXBase.HTMLAttributes<HTMLAppProfileElement>;
