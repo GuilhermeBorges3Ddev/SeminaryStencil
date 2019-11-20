@@ -15,13 +15,14 @@ sudo apt-get update && sudo apt-get install yarn
 yarn --version
 ```
 ---
-#### **2) Clone o projeto no diretório criado:**
-Basta rodar a diretiva `git clone` abaixo:
+#### **2) Teste se o seu projeto clonado está rodando:**
+Dentro do reposítório clonado, acessem o diretório "/stencil", rodando a diretiva:
 
-    --> Execute o comando no path: /git/
-    cd git
-    git clone https://github.com/GuilhermeBorges3Ddev/SMARKIO.git
+    yarn start
+
+* Caso o comando funcione acesse no browser de sua preferência o link: http://localhost:3000 
 ---
+
 #### **3) Baixe as dependências para poder rodar o projeto:**
 Repare que foi criado o diretório `SMARKIO/`, após a clonagem.  
 Entre então no novo diretório para instalar as dependências:
